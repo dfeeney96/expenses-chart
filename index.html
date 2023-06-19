@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="my-balance-card">
+      <div class="title">
+        <h1>My balance</h1>
+        <p class="balance-total">£921.48</p>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </section>
+  <section class="graph-card">
+    <div class="spending-summary-container">
+      <h2>Spending - Last 7 days</h2>
+      <div class="graph-container">
+        <div class="day-section one">
+          <div class="bar"></div>
+          <p class="day-title">mon</p>
+        </div>
+        <div class="day-section two">
+          <div class="bar"></div>
+          <p class="day-title">tue</p>
+        </div>
+        <div class="day-section three">
+          <div class="bar"></div>
+          <p class="day-title">wed</p>
+        </div>
+        <div class="day-section four">
+          <div class="bar"></div>
+          <p class="day-title">thurs</p>
+        </div>
+        <div class="day-section five" >
+          <div class="bar" id="active"></div>
+          <p class="day-title">fri</p>
+        </div>
+        <div class="day-section six">
+          <div class="bar"></div>
+          <p class="day-title">sat</p>
+        </div>
+        <div class="day-section seven">
+          <div class="bar"></div>
+          <p class="day-title">sun</p>
+        </div>
+      </div>
+      <div class="monthly-stats">
+        <div class="this-month-stats">
+          <p class="label">Total this month</p>
+          <h3>£478.33</h3>
+        </div>
+        <div class="comparison-stats">
+          <h4>+2.4%</h4>
+          <p class="label">from last month</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/dfeeney96" target="_blank">Danielle Feeney</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
